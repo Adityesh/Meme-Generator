@@ -8,10 +8,9 @@ function App() {
   return (
     <div>
       <Header />
-      <Body />
-      
+      <Body />  
     </div>
-  );
+  )
 }
 
 export default App;

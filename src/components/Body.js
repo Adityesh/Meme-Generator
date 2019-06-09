@@ -45,8 +45,8 @@ class Body extends React.Component{
 
     render(){
         return(
-            <div className ="content">
-              <form>
+            <div>
+              <form className="meme-form">
                   <input type="text" placeholder="Top Text" name="topText" value={this.state.topText} onChange={this.handleChange}></input>
                   <input type="text" placeholder="Bottom Text" name="bottomText" value={this.state.bottomText} onChange={this.handleChange}></input>
                   <button onClick={this.handleClick}>Generate</button>

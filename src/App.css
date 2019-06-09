@@ -1,3 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+
 .title{
     text-align: center;
 }
@@ -34,8 +44,14 @@
     margin: auto;
 }
 
+.meme img {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    
+}
 
-.meme > h2 {
+.meme  h2 {
     position: absolute;
     width: 80%;
     text-align: center;
@@ -60,11 +76,11 @@
         2px 2px 5px #000;
 }
 
-.meme > .bottom {
+.meme .bottom {
     bottom: 0;
 }
 
-.meme > .top {
+.meme .top {
     top: 0;
 }
 
@@ -75,12 +91,12 @@
     justify-content: space-between;
 }
 
-.meme-form > input {
+.meme-form input {
     width: 45%;
     height: 40px;
 }
 
-.meme-form > button {
+.meme-form button {
     border: none;
     font-family: VT323, monospace;
     font-size: 25px;
@@ -89,22 +105,22 @@
     background: #6441A5;
 }
 
-.meme-form > input::-webkit-input-placeholder { 
+.meme-form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   font-family: VT323, monospace;
   font-size: 25px;
   text-align: cen
 }
-.meme-form > input::-moz-placeholder { 
+.meme-form input::-moz-placeholder { /* Firefox 19+ */
   font-family: VT323, monospace;
   font-size: 25px;
   text-align: cen
 }
-.meme-form > input:-ms-input-placeholder {
+.meme-form input:-ms-input-placeholder { /* IE 10+ */
   font-family: VT323, monospace;
   font-size: 25px;
   text-align: cen
 }
-.meme-form > input:-moz-placeholder { 
+.meme-form input:-moz-placeholder { /* Firefox 18- */
   font-family: VT323, monospace;
   font-size: 25px;
   text-align: cen
